@@ -1,0 +1,74 @@
+﻿# goaccess 설치
+wget https://tar.goaccess.io/goaccess-1.2.tar.gz
+tar -xzvf goaccess-1.2.tar.gz
+cd goaccess-1.2/
+./configure --enable-utf8 --enable-geoip=legacy
+make
+# make install
+
+# s3sync 로 elb 로그 동기화 (apache access_log 다름)
+# goaccess usage
+goaccess {log file name} -c
+#terminnal Static HTML output
+find . -exec cat {} \; | goaccess -a -o /home/minda/www/public_html/report_elb.html --real-time-html -
+
+# --------------------------------------------
+# Log Configuration
+# --------------------------------------------
+The configuration file is located under 
+`~/.goaccessrc` or `%sysconfdir%/goaccess.conf` where `%sysconfdir%` is either `/etc/`, `/usr/etc/` or `/usr/local/etc/`
+
+# --------------------------------------------
+# s3cmd Sync
+# sync 는 그대로 모든 경로를 조회하므로 경로 설정에 주의 (가급적 년/월/일 까지 디테일한 경로로 싱크)
+# --------------------------------------------
+s3cmd sync s3://mindaelblog/AWSLogs/227292009533/elasticloadbalancing/ap-northeast-2/2018/05/ /etc/httpd/logs/elblog/2018/05/
+
+# --------------------------------------------
+# Basic Usage
+# --------------------------------------------
+find . -exec cat {} \; | goaccess -a
+find . -exec cat {} \; | goaccess -o /home/minda/www/public_html/report.html
+find /etc/httpd/logs/elblog/2018/05/ -exec cat {} \; | goaccess -o /home/minda/www/public_html/report.html
+
+#staging server version
+find /var/log/httpd/elb/2018/07/ -exec cat {} \; | goaccess -o /home/minda/www/public_html/report_0705.html --log-format=AWSELB
+find . -exec cat {} \; | goaccess -o /home/minda/www/public_html/report_0705.html --log-format=AWSELB
+
+# --------------------------------------------
+# Static HTML Output
+# path : /home/minda/www/public_html/report*.html
+# --------------------------------------------
+# 특정경로 특정 파일 (날짜로 분류할때) output html
+find /etc/httpd/logs/elb/2018 -name "*20180521*" -exec cat {} \; | goaccess -o /home/minda/www/public_html/report_elb.html
+find /etc/httpd/logs/elb/2018 -type f \( -name "*20180519*" -o -name "*20180520*" -o -name "*20180521*" \) -exec cat {} \; | goaccess -o /home/minda/www/public_html/report_elb.html
+
+# --------------------------------------------
+# Terminal Output
+# --------------------------------------------
+# 기본
+find . -exec cat {} \; | goaccess -a --log-format=AWSELB
+# 특정경로 특정 파일 (날짜로 분류할때) terminal
+find /etc/httpd/logs/elblog/2018 -name "*20180521*" -exec ca t {} \; | goaccess -a
+
+# 여러 조건 검색 
+find /etc/httpd/logs/elblog/2018 -type f \( -name "*20180519*" -o -name "*20180520*" -o -name "*20180521*" \) -exec cat {} \; | goaccess -a
+
+
+# --------------------------------------------
+# Example
+# --------------------------------------------
+
+find /etc/httpd/logs/elblog/2018/05/ -name "*20180512*" -exec cat {} \; | goaccess -o /home/minda/www/public_html/report/report_12.html
+find /etc/httpd/logs/elblog/2018/05/ -type f \( -name "*20180523*" -o -name "*20180522*" -o -name "*20180521*" -o -name "*20180520*" -o -name "*20180519*" -o -name "*20180518*" -o -name "*20180517*" -o -name "*20180516*" -o -name "*20180515*" -o -name "*20180514*" -o -name "*20180513*" \) -exec cat {} \; | goaccess -o /home/minda/www/public_html/report/report_elb.html
+find /etc/httpd/logs/elblog/2018/05/ -type f \( -name "*2018052*" -o -name "*2018051*"  \) -exec cat {} \; | goaccess -o /home/minda/www/public_html/report/report_elb.html
+find /etc/httpd/logs/elblog/2018/05/ -type f \( -name "*20180501*" -o -name "*20180502*" -o -name "*20180503*"  \) -exec cat {} \; | goaccess -o /home/minda/www/public_html/report/report_1_3.html
+
+ls 227292009533_elasticloadbalancing_ap-northeast-2_minda-web-elb_* | sort -r | xargs cat > elb-20180505.log
+
+find /etc/httpd/logs/elblog/2018/05/ -name "elb-201805*" -exec cat {} \; | goaccess -a
+
+find /etc/httpd/logs/elb/2018/07/ -name "elb-201807*" -exec cat {} \; | goaccess -o /home/minda/www/public_html/report_0705.html
+
+
+goaccess 227292009533_elasticloadbalancing_ap-northeast-2_minda-web-elb_20180705T0000Z_13.124.133.165_1ntibpyv.log 227292009533_elasticloadbalancing_ap-northeast-2_minda-web-elb_20180705T0000Z_52.78.225.3_6d8sukpn.log 227292009533_elasticloadbalancing_ap-northeast-2_minda-web-elb_20180705T0100Z_13.124.133.165_4fv8cwo4.log 227292009533_elasticloadbalancing_ap-northeast-2_minda-web-elb_20180705T0100Z_52.78.225.3_461ekunl.log 227292009533_elasticloadbalancing_ap-northeast-2_minda-web-elb_20180705T0200Z_13.124.133.165_3y0a6q1t.log 227292009533_elasticloadbalancing_ap-northeast-2_minda-web-elb_20180705T0200Z_52.78.225.3_5fs723bp.log -o /home/minda/www/public_html/report_0705.html
