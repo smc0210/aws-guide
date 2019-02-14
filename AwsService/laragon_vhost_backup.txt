@@ -1,0 +1,56 @@
+#
+# Virtual Hosts
+#
+# If you want to maintain multiple domains/hostnames on your
+# machine you can setup VirtualHost containers for them. Most configurations
+# use only name-based virtual hosts so the server doesn't need to worry about
+# IP addresses. This is indicated by the asterisks in the directives below.
+#
+# Please see the documentation at
+# <URL:http://httpd.apache.org/docs/trunk/vhosts/>
+# for further details before you try to setup virtual hosts.
+#
+# You may use the command line option '-S' to verify your virtual host
+# configuration.
+
+#
+# Use name-based virtual hosting.
+#
+
+#
+# VirtualHost example:
+# Almost any Apache directive may go into a VirtualHost container.
+# The first VirtualHost section is used for all requests that do not
+# match a ServerName or ServerAlias in any <VirtualHost> block.
+#
+
+# First Virtual Host must be a shallow duplicate of the main host
+# in httpd.conf
+<VirtualHost _default_:80>
+
+	ServerName theminda.test
+	ServerAlias localhost
+	DocumentRoot D:/minda/minda-api/public_html/
+	
+    <Directory "D:/minda/minda-api/public_html/">
+        AllowOverride All
+        Require all granted
+    </Directory>
+	
+	<IfModule mime_module>
+        SetEnv SERVER_MODE  local
+
+        php_value upload_max_filesize 400M
+        php_value post_max_size 420M
+        php_value max_file_uploads 100
+
+        SetEnv DB_CONNECTION  development
+        SetEnv DB_HOST        git.theminda.com
+        SetEnv DB_DATABASE    minda-dev
+        SetEnv DB_USERNAME    wis
+        SetEnv DB_PASSWORD    rnrmfrkrhtlvek
+		
+		SetEnv LEGACY_B2B_API_URL    https://dev-b2b.theminda.com
+		SetEnv LEGACY_B2B_API_TOKEN  qYrMzUy9GDy60BoYr6CmNrG76IdpWnfasNDgYn1s
+    </IfModule>
+</VirtualHost>
