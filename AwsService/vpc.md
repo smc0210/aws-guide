@@ -220,16 +220,16 @@ Subnet을 route table에 연결해준다.
 ---
 
 
-[1]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_1.png
-[2]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_2.png
-[3]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_3.png
-[4]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_4.png
-[5]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_5.png
-[6]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_6.png
-[7]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_7.png
-[8]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_8.png
-[9]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_9.png
-[10]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_10.png
-[11]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_11.png
-[12]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_12.png
-[13]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/vpc_13.png
+[1]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_1.png
+[2]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_2.png
+[3]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_3.png
+[4]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_4.png
+[5]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_5.png
+[6]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_6.png
+[7]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_7.png
+[8]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_8.png
+[9]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_9.png
+[10]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_10.png
+[11]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_11.png
+[12]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_12.png
+[13]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/vpc_13.png

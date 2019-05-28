@@ -207,7 +207,7 @@ EC2에서 그냥 일반적인 하드디스크(혹은 SSD)로 인식되고 성능
 #### EBS 사용
 
 EBS도 EC2 인스턴스와 마찬가지로 별도로 생성 할 수 있고, 별도로 생성한 EBS Volume을 instance에 붙여서 사용가능하다
-EBS 생성은 [EC2 인스턴스 생성 단계](https://github.com/theminda/aws-setting/blob/master/AwsService/ec2.md#step-4-add-storage)와 거의 동일하다.
+EBS 생성은 [EC2 인스턴스 생성 단계](https://github.com/smc0210/aws-guide/blob/master/AwsService/ec2.md#step-4-add-storage)와 거의 동일하다.
 
 ![ec2][12]
 
@@ -223,7 +223,7 @@ EBS Volume 리스트를 보면 모든 목록이 보이는데 `State` 가 `in-use
 ![ec2][14]
 
 > 볼륨을 Attach 할경우 마운트 작업이 필요하지만 CentOS 6.X의 경우 추가적으로 volume 확장 작업이 필요하다
-> 볼륨 확장은 [volume 확장 가이드](https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/OS.md#6-3-%EA%B8%B0%ED%83%80-1) 를 참조
+> 볼륨 확장은 [volume 확장 가이드](https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/OS.md#6-3-%EA%B8%B0%ED%83%80-1) 를 참조
 
 
 ### 4. Network & Security

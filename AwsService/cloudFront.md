@@ -120,10 +120,10 @@ CloudFront 배포(Distribution)는 가장 기본적인 단위로 S3의 버킷과
 
 ---
 
-[1]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/cf_1.png
-[2]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/cf_2.png
-[3]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/cf_3.png
-[4]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/cf_4.png
-[5]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/cf_5.png
-[6]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/cf_6.png
+[1]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/cf_1.png
+[2]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/cf_2.png
+[3]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/cf_3.png
+[4]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/cf_4.png
+[5]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/cf_5.png
+[6]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/cf_6.png
 

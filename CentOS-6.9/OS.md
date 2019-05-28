@@ -842,25 +842,25 @@ python ./awslogs-agent-setup.py --region ap-northeast-2 --dependency-path /tmp/A
 
 ---
 
-[1]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_1.png
-[2]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_2.png
-[3]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_3.png
-[4]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_4.png
-[5]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_5.png
-[6]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_6.png
-[7]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_7.png
-[8]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_8.png
-[9]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_9.png
-[10]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_10.png
-[11]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_11.png
-[12]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_12.png
-[12-1]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_12-1.png
-[13]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_13.png
-[14]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_14.png
-[15]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_15.png
-[16]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_16.png
-[16-1]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_16-1.png
-[16-2]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_16-2.png
-[17]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_17.png
-[18]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_18.png
-[19]: https://github.com/theminda/aws-setting/blob/master/CentOS-6.9/asset/OS_19.png
+[1]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_1.png
+[2]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_2.png
+[3]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_3.png
+[4]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_4.png
+[5]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_5.png
+[6]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_6.png
+[7]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_7.png
+[8]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_8.png
+[9]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_9.png
+[10]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_10.png
+[11]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_11.png
+[12]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_12.png
+[12-1]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_12-1.png
+[13]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_13.png
+[14]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_14.png
+[15]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_15.png
+[16]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_16.png
+[16-1]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_16-1.png
+[16-2]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_16-2.png
+[17]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_17.png
+[18]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_18.png
+[19]: https://github.com/smc0210/aws-guide/blob/master/CentOS-6.9/asset/OS_19.png

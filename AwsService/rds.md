@@ -218,22 +218,22 @@ db 인스턴스 생성이나 스냅샷을 통한 복구와 달리 최상단에 `
 
 
 ---
-[0]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_0.png
-[1]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_1.png
-[2]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_2.png
-[3]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_3.png
-[4]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_4.png
-[5]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_5.png
-[6]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_6.png
-[7]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_7.png
-[8]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_8.png
-[9]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_9.png
-[10]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_10.png
-[11]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_11.png
-[12]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_12.png
-[13]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_13.png
-[14]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_14.png
-[15]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_15.png
-[16]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/rds_16.png
+[0]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_0.png
+[1]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_1.png
+[2]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_2.png
+[3]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_3.png
+[4]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_4.png
+[5]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_5.png
+[6]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_6.png
+[7]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_7.png
+[8]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_8.png
+[9]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_9.png
+[10]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_10.png
+[11]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_11.png
+[12]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_12.png
+[13]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_13.png
+[14]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_14.png
+[15]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_15.png
+[16]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/rds_16.png
 
 
