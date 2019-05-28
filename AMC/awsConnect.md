@@ -216,15 +216,15 @@ S3 업로드를 지원하는 외부 툴을 이용해 파일업로드 및 액세�
 
 ---
 
-[1]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_1.png
-[2]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_2.png
-[3]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_3.png
-[4]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_4.png
-[5]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_5.png
-[6]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_6.png
-[7]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_7.png
-[8]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_8.png
-[9]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_9.png
-[10]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_10.png
-[11]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_11.png
-[12]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/awsConnect_12.png
+[1]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_1.png
+[2]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_2.png
+[3]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_3.png
+[4]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_4.png
+[5]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_5.png
+[6]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_6.png
+[7]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_7.png
+[8]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_8.png
+[9]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_9.png
+[10]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_10.png
+[11]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_11.png
+[12]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/awsConnect_12.png

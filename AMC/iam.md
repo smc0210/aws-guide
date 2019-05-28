@@ -81,9 +81,9 @@ access key 가 생성되면 팝업창에서 액세스키와 비밀키를 csv 파
 
 ---
 
-[1]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/iam_1.png
-[2]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/iam_2.png
-[3]: https://github.com/theminda/aws-setting/blob/master/AMC/asset/iam_3.png
+[1]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/iam_1.png
+[2]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/iam_2.png
+[3]: https://github.com/smc0210/aws-guide/blob/master/AMC/asset/iam_3.png
 
 
 
