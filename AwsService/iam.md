@@ -179,10 +179,10 @@ AWS 뿐만 아니라 정보보안 개론에서 중요한 개념중 하나인 **�
 
 ---
 
-[1]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/iam_1.png
-[2]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/iam_2.png
-[3]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/iam_3.png
-[4]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/iam_4.png
-[5]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/iam_5.png
-[6]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/iam_6.png
-[7]: https://github.com/theminda/aws-setting/blob/master/AwsService/asset/iam_7.png
+[1]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/iam_1.png
+[2]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/iam_2.png
+[3]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/iam_3.png
+[4]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/iam_4.png
+[5]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/iam_5.png
+[6]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/iam_6.png
+[7]: https://github.com/smc0210/aws-guide/blob/master/AwsService/asset/iam_7.png
